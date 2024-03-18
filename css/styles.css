@@ -1,0 +1,225 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background-color: #f0f2f5;
+}
+body {
+  background-color: #f0f2f5;
+}
+
+.max-wid {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img-face {
+  height: 45px;
+}
+
+h2 {
+  max-width: 500px;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.box {
+  display: flex;
+  width: 390px;
+  flex-direction: column;
+  padding: 16px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.grupo-img-h2 {
+  padding-right: 80px;
+}
+
+#email,
+#password,
+#entrar {
+  margin-bottom: 12px;
+  padding: 16px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+  font-size: 17px;
+}
+
+#entrar {
+  border: 1px solid #1877f2;
+  background-color: #1877f2;
+  font-weight: 600;
+  font-size: 17px;
+  color: white;
+  cursor: pointer;
+}
+#entrar:hover {
+  background-color: #156cdd;
+}
+
+::placeholder {
+  color: #33333385;
+}
+
+a {
+  text-align: center;
+  color: #1877f2;
+}
+
+.linha {
+  border-bottom: 1px solid #dddfe2;
+  margin: 12px 0px 12px 0px;
+}
+
+#novaconta {
+  background-color: #42b72a;
+  font-size: 17px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 15px 17px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+#novaconta:hover {
+  background-color: #3ca827;
+}
+.mov-novaconta {
+  text-align: center;
+  margin: 6px 0px 0px 0px;
+}
+
+#email,
+#password {
+  outline-color: #1876f2a7;
+}
+
+.sup23 {
+  max-width: 350px;
+  text-align: center;
+  margin: 15px 0px 15px 0px;
+}
+
+.tex-ce {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.blac {
+  color: black;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.esq-sen {
+  font-size: 14px;
+  text-align: center;
+  margin: 6px 0px 6px 0px;
+}
+
+@media only screen and (max-width: 880px) {
+  .max-wid {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .grupo-img-h2 {
+    padding: 0;
+  }
+  h2 {
+    font-size: 24px;
+    width: 400px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .box {
+    width: calc(100vw - 25px);
+  }
+  h2,
+  .sup23 {
+    display: none;
+  }
+  .img-face {
+    margin-bottom: 20px;
+  }
+  .container {
+    height: 100vh;
+  }
+}
+.ao2xx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+@media only screen and (max-width: 300px) {
+  .img-face {
+    height: 30px;
+  }
+}
+@media only screen and (max-width: 230px) {
+  #novaconta {
+    width: 100%;
+  }
+}
+@media only screen and (max-height: 803px) {
+  .container {
+    height: 100vh;
+  }
+}
+@media only screen and (max-height: 626px) {
+  .container {
+    height: auto;
+    display: block;
+    height: 100vh;
+  }
+}
+@media only screen and (max-height: 460px) {
+  .box {
+    margin: 0px 0px 15px 0px;
+  }
+  .sup23 {
+    margin: 0px 0px 15px 0px;
+  }
+}
+@media only screen and (min-width: 881px) {
+  .container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media only screen and (max-height: 432px) {
+  .container {
+    height: auto;
+  }
+}
